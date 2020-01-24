@@ -1,50 +1,30 @@
-import React, { Component } from "react"
-import logo from "./logo.svg"
-import "./App.css"
+import React from 'react';
+import './App.css';
+import About from './components/about';
+import Skills from './components/skills';
+import NavBar from './components/navbar';
+import Projects from './components/projects';
+import Contact from './components/contact';
 
-class LambdaDemo extends Component {
-  constructor(props) {
-    super(props)
-    this.state = { loading: false, msg: null }
-  }
+function App() {
 
-  handleClick = api => e => {
-    e.preventDefault()
-
-    this.setState({ loading: true })
-    fetch("/.netlify/functions/" + api)
-      .then(response => response.json())
-      .then(json => this.setState({ loading: false, msg: json.msg }))
-  }
-
-  render() {
-    const { loading, msg } = this.state
-
-    return (
-      <p>
-        <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
-        <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
-        <br />
-        <span>{msg}</span>
-      </p>
-    )
-  }
+  return (
+    <div className="App">
+      <NavBar />
+      <div id="jump-about"></div>
+      <About />
+      <div id="jump-language"></div>
+      <Skills />
+      <div className="invisible-skills"></div>
+      <div id="jump-projects"></div>
+      <div className="grad-grey"></div>
+      <Projects />
+      <div className="invisible-projects"></div>
+      <div id="jump-contact"></div>
+      <Contact />
+      <p id="copyright">© 2019 BRIAN TJOE WALSH </p>
+    </div>
+  );
 }
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            This is Brian's Project
-          </p>
-          <LambdaDemo />
-        </header>
-      </div>
-    )
-  }
-}
-
-export default App
+export default App;
