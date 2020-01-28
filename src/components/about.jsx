@@ -13,9 +13,9 @@ const About = () => {
               My name is Brian, and I am a former high school English teacher who 
               discovered a passion for software engineering! I love being able to 
               bring creativity into my career, whether that be making beautiful 
-              frontend components, or writing elegantly efficient algorithems. 
+              front-end components, or writing elegantly efficient algorithms. 
               Today, I work in a variety of languages and frameworks to create 
-              fully featured web applications as a fullstack web developer.
+              fully featured web applications as a full-stack web developer.
             </article>
             <div className="project-buttons">
             <a href="https://bbriannwalshh.github.io/personal-portfolio/brian-tjoe-walsh-resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn--submit btn-prj">RESUME</a>
