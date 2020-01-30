@@ -18,7 +18,7 @@ const About = () => {
               fully featured web applications as a full-stack web developer.
             </article>
             <div className="project-buttons">
-            <a href="https://bbriannwalshh.github.io/personal-portfolio/brian-tjoe-walsh-resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn--submit btn-prj">RESUME</a>
+            <a href="https://brian-tjoe-walsh.com/brian-tjoe-walsh-resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn--submit btn-prj">RESUME</a>
             <a href="https://www.linkedin.com/in/brian-tjoe-walsh-89086991/" target="_blank" rel="noopener noreferrer" className="btn btn-clear btn-prj-two">LINKEDIN</a>
             </div>
         </div>
