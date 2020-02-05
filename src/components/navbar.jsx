@@ -25,7 +25,6 @@ class NavBar extends React.Component {
   }
 
   removeClass() {
-    debugger
     this.menu.classList.remove("onClick");
     this.menu.classList.remove("slideUp");
   }

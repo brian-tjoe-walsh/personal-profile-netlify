@@ -25,7 +25,6 @@ export default class extends React.Component {
   }
 
   checkForErrors() {
-    debugger
     if (this.state.feedback.length < 1) {
       return false;
     }
@@ -66,7 +65,6 @@ export default class extends React.Component {
   }
 
   removeClass() {
-    debugger
     let ele = document.getElementById("success");
     ele.classList.remove("display");
     ele.classList.add("display-none");
@@ -74,7 +72,6 @@ export default class extends React.Component {
   }
 
   removeFailure() {
-    debugger
     let ele = document.getElementById("fail");
     ele.classList.remove("display");
     ele.classList.add("display-none");

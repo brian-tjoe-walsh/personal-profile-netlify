@@ -31,6 +31,7 @@ const Projects = () => {
           </div>
         </section>
         <section className="proj sqr">
+          <img src="squaregroove.png" alt="" className="proj-pic" />
           <div className="proj-text sqrgrv">
             <h3 className="proj-title">SQUAREGROOVE</h3>
             <article className="paragraphs projecto">
@@ -50,7 +51,6 @@ const Projects = () => {
               <a href="https://github.com/bbriannwalshh/SquareGroove" target="_blank" rel="noopener noreferrer" className="btn btn-clear btn-prj-two">GITHUB REPO</a>
             </div>
           </div>
-          <img src="squaregroove.png" alt="" className="proj-pic"/>
         </section>
         <section className="proj">
           <img src="desolation.png" alt="" className="proj-pic"/>

@@ -6,7 +6,8 @@ const Skills = () => {
     <div className="skills-out">
       <section className="skills">
         {/* <h2 className="title">Skills</h2> */}
-        <h3 className="main-cat">LANGUAGES - FRAMEWORKS - TECHNOLOGIES</h3>
+        <h3 className="main-cat mobile">LANGUAGES & FRAMEWORKS</h3>
+        <h3 className="main-cat non-mobile">LANGUAGES - FRAMEWORKS - TECHNOLOGIES</h3>
         <div className="line"></div>
         <div className="languages">
           <div className="language">
@@ -34,10 +35,9 @@ const Skills = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="skills">
-        <div className="line"></div>
-        <div className="languages no-space">
+      <div className="line"></div>
+      <div className="languages no-space">
+        <div className="languages">
           <div className="language">
             <h4 className="cat">Rails</h4>
             <div className="circle">
@@ -93,7 +93,8 @@ const Skills = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     </div>
   );
 }
