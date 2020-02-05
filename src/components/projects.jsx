@@ -7,7 +7,7 @@ const Projects = () => {
         {/* <h2 className="title">Skills</h2> */}
         <h3 className="main-cat">PROJECTS</h3>
         <div className="line prj"></div>
-        <section className="proj">
+        <section className="proj slwcld-proj">
           <img src="slowcloud.png" alt="" className="proj-pic slwclwd"/>
           <div className="proj-text">
             <h3 className="proj-title">SLOWCLOUD</h3>

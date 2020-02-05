@@ -229,14 +229,18 @@ code {
 }
 
 .proj-pic {
-  width: 100%;
+  width: 98%;
   box-shadow: 0px 5px 10px rgb(31, 31, 31);
   border-radius: 5px;
 }
 
 .slwclwd {
-  width: 100%;
+  width: 98%;
   height: auto;
+}
+
+.sqr-pic {
+  width: 98%;
 }
 
 .proj-title {
@@ -532,6 +536,9 @@ code {
   border-bottom: none;
 }
 
+.slwcld-proj {
+  box-shadow: none;
+}
 
 
 
@@ -585,8 +592,42 @@ code {
 
 
 
+@media only screen and (min-width: 450px) {
+  .proj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .proj-title {
+    width: inherit;
+  }
 
+  .slwclwd {
+    width: 95%;
+  }
+
+  .sqr-pic {
+    width: 95%;
+  }
+
+  .proj-pic {
+    width: 95%;
+  }
+
+  .proj-text {
+    width: 95%;
+  }
+
+  .project-buttons {
+    margin-bottom: 10px;
+  }
+
+  .prj {
+    box-shadow: none;
+    width: 90%;
+  }
+}
 
 
 
@@ -603,6 +644,21 @@ code {
   .form-sub {
     padding: 0 20px 0 20px;
   }
+
+  .slwclwd {
+    width: 90%;
+  }
+
+  .sqr-pic {
+    width: 90%;
+  }
+
+  .proj-pic {
+    width: 90%;
+  }
+
+
+
 }
 
 
@@ -616,7 +672,7 @@ code {
   }
 
   .invisible-projects {
-    height: 1752px;
+    height: 1640px;
   }
   .invisible-skills {
     height: 457px;
@@ -720,7 +776,7 @@ code {
     height: 428px;
     width: 700px;
     position: relative;
-    left: -50px
+    left: -150px
   }
 
   .slwclwd {
@@ -730,31 +786,34 @@ code {
 
   .sqr-pic {
     position: relative;
-    left: 50px;
+    left: 150px;
   }
 
   .proj-title {
-    width: 600px;
+    width: 90%;
   }
 
   .proj {
-    display: flex;
     flex-direction: row;
-    padding: 50px 20px 20px 20px;
+    justify-content: center;
+    padding: 50px 0 20px 0;
   }
 
   .proj-text {
-    margin: 50px;
-    width: 800px;
+    position: relative;
+    /* margin: 50px; */
+    max-width: 663px;
   }
 
   .projecto {
-    width: 600px;
+    width: 90%;
+    margin: 10px;
+    padding: 0px;
   }
 
   .sqrgrv {
     margin: 50px 0px 50px 150px;
-    width: 700px;
+    /* width: 700px; */
   }
 
   .sqr {
