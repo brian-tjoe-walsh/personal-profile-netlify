@@ -100,27 +100,25 @@ export default class extends React.Component {
           <h1 className="proj-title line-form">SEND A MESSAGE!</h1>
           <div className="form-shift">
             <div className="form-info">
-              <div className="form-sub">
+              <div className="form-sub form-sub-left">
                 NAME 
                 <input type="text" className="text-field" onChange={this.handleChange("name")} value={this.state.name} placeholder="Name"/>
               </div>
-              <div className="form-sub">
+              <div className="form-sub form-sub-right">
                 EMAIL 
                 <input type="text" className="text-field" onChange={this.handleChange("email")} value={this.state.email} placeholder="email@example.com"/>
               </div>
             </div>
             <div className="form-sub">
               MESSAGE
+              <textarea
+                className="text-field large"
+                onChange={this.handleChange("feedback")}
+                placeholder="Let me know if you'd like to meet!"
+                required
+                value={this.state.feedback}
+              />
             </div>
-            <textarea
-              // type="text-area"
-              // id="test-mailing"
-              className="text-field large"
-              onChange={this.handleChange("feedback")}
-              placeholder="Let me know if you'd like to meet!"
-              required
-              value={this.state.feedback}
-            />
           </div>
           <div>
             <input type="button" value="SEND MESSAGE" className="btn btn--submit" onClick={this.handleSubmit} />

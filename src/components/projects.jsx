@@ -31,7 +31,7 @@ const Projects = () => {
           </div>
         </section>
         <section className="proj sqr">
-          <img src="squaregroove.png" alt="" className="proj-pic" />
+          <img src="squaregroove.png" alt="" className="proj-pic sqr-pic" />
           <div className="proj-text sqrgrv">
             <h3 className="proj-title">SQUAREGROOVE</h3>
             <article className="paragraphs projecto">
