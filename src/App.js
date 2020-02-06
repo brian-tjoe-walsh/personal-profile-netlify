@@ -22,7 +22,7 @@ function App() {
       <div className="invisible-projects"></div>
       <div id="jump-contact"></div>
       <Contact />
-      <p id="copyright">© 2019 BRIAN TJOE WALSH </p>
+      <p id="copyright">© 2020 BRIAN TJOE WALSH </p>
     </div>
   );
 }
