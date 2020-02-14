@@ -354,6 +354,8 @@ code {
 .large {
   height: 240px;
   text-align: start;
+  resize: vertical;
+  touch-action: manipulation;
 }
 
 .contacts-sub {
