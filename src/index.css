@@ -377,9 +377,11 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  bottom: 250px;
-  left: 500px;
-  width: 400px;
+  bottom: 45vh;
+  /* left: 10vw; */
+  /* bottom: 250px; */
+  /* left: 500px; */
+  width: 350px;
   height: 300px;
   font-size: 50px;
   background: rgba(216, 216, 216, 0.87);
@@ -587,8 +589,12 @@ code {
 
 
 
-
-
+@media only screen and (min-width: 400px) {
+  .form-success {
+    width: 400px;
+    /* left: 15vw; */
+  }
+}
 
 
 
@@ -629,12 +635,20 @@ code {
     box-shadow: none;
     width: 90%;
   }
+
+  .form-success {
+    /* left: 25vw; */
+  }
 }
 
 
 
 
 @media only screen and (min-width: 760px) {
+  .form-success {
+    /* left: 25vw; */
+  }
+
   .tablet-sizing {
     justify-content: center;
   }
@@ -905,3 +919,13 @@ code {
     margin-left: 10px;  
   }
 }
+
+
+@media only screen and (min-width: 1120px) {
+  .form-success {
+    /* left: 45vw; */
+  }
+
+}
+
+/* margin takes in 2 values : margin (0, auto) */
