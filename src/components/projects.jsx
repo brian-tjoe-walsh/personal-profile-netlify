@@ -26,7 +26,7 @@ const Projects = () => {
             </article>
             <div className="project-buttons">
               <a href="https://slowcloud.herokuapp.com/#/" target="_blank" rel="noopener noreferrer" className="btn btn--submit btn-prj">LIVE SITE</a>
-              <a href="https://github.com/bbriannwalshh/SlowCloud" target="_blank" rel="noopener noreferrer" className="btn btn-clear btn-prj-two">GITHUB REPO</a>
+              <a href="https://github.com/brian-tjoe-walsh/SlowCloud" target="_blank" rel="noopener noreferrer" className="btn btn-clear btn-prj-two">GITHUB REPO</a>
             </div>
           </div>
         </section>
@@ -48,7 +48,7 @@ const Projects = () => {
             </article>
             <div className="project-buttons">
               <a href="https://squaregroove.herokuapp.com/#/" target="_blank" rel="noopener noreferrer" className="btn btn--submit btn-prj">LIVE SITE</a>
-              <a href="https://github.com/bbriannwalshh/SquareGroove" target="_blank" rel="noopener noreferrer" className="btn btn-clear btn-prj-two">GITHUB REPO</a>
+              <a href="https://github.com/brian-tjoe-walsh/SquareGroove" target="_blank" rel="noopener noreferrer" className="btn btn-clear btn-prj-two">GITHUB REPO</a>
             </div>
           </div>
         </section>
@@ -73,8 +73,8 @@ const Projects = () => {
               Gapminder and UN population estimates 
             </article>
             <div className="project-buttons">
-              <a href="https://bbriannwalshh.github.io/TheDesolationOfSmog/" target="_blank" rel="noopener noreferrer" className="btn btn--submit btn-prj">LIVE SITE</a>
-              <a href="https://github.com/bbriannwalshh/TheDesolationOfSmog" target="_blank" rel="noopener noreferrer" className="btn btn-clear btn-prj-two">GITHUB REPO</a>
+              <a href="https://brian-tjoe-walsh.github.io/TheDesolationOfSmog/" target="_blank" rel="noopener noreferrer" className="btn btn--submit btn-prj">LIVE SITE</a>
+              <a href="https://github.com/brian-tjoe-walsh/TheDesolationOfSmog" target="_blank" rel="noopener noreferrer" className="btn btn-clear btn-prj-two">GITHUB REPO</a>
             </div>
           </div>
         </section>

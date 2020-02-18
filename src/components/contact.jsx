@@ -17,7 +17,7 @@ const Contact = () => {
                   <i className="fas fa-envelope-open-text icon"></i>
                   Email
                   <div className="con-sub">
-                    bbriannwalshh@gmail.com
+                    briantjoewalsh@gmail.com
                   </div>
                 </div>
                 <div className="con">
@@ -33,7 +33,7 @@ const Contact = () => {
                   <i className="fab fa-linkedin icon large-top"></i>
                   LinkedIn
                 </a>  
-                <a href="https://github.com/bbriannwalshh" target="_blank" rel="noopener noreferrer" className="con">
+                <a href="https://github.com/brian-tjoe-walsh" target="_blank" rel="noopener noreferrer" className="con">
                   <i className="fab fa-github icon large-top"></i>
                   Github
                 </a>  
